@@ -1209,8 +1209,8 @@ updateMainMenuFeatureLocks();
 updateMainMenuNotificationDots();
 
 const btnApCollect = document.getElementById("btn-ap-collect");
-if (btnApCollectInit) {
-    toggleMenuRedDot(btnApCollectModal, (PlayerData.pendingLiveTickets || 0) >= 30);
+if (btnApCollect) {
+    toggleMenuRedDot(btnApCollect, (PlayerData.pendingLiveTickets || 0) >= 30);
 }
 
 checkFeatureUnlocksAndAnnounce();
