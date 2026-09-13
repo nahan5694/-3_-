@@ -1,13 +1,13 @@
-import { initGameData } from './api.js?v=004276';
-import { initAuditionSystem } from './audition.js?v=004276';
-import { PlayerData } from './state.js?v=004276';
-import { initGachaSystem } from './gacha.js?v=004276';
-import { initShopSystem, openShopScene } from './shop.js?v=004276';
-import { initKizunaSystem } from './kizuna.js?v=004276';
-import { initStageSystem } from './ui_stage.js?v=004276';
-import { initLiveSystem } from './ui_live.js?v=004276';
-import { initCommonUI, startGlobalTimeSystem, initUIStoreListeners, updateMainCharacterImage, changeSceneFade, updateMainPickupBanner, playNextRandomBgm } from './ui.js?v=004276';
-import { initBattleSystem } from './battle.js?v=004276';
+import { initGameData } from './api.js?v=004277';
+import { initAuditionSystem } from './audition.js?v=004277';
+import { PlayerData } from './state.js?v=004277';
+import { initGachaSystem } from './gacha.js?v=004277';
+import { initShopSystem, openShopScene } from './shop.js?v=004277';
+import { initKizunaSystem } from './kizuna.js?v=004277';
+import { initStageSystem } from './ui_stage.js?v=004277';
+import { initLiveSystem } from './ui_live.js?v=004277';
+import { initCommonUI, startGlobalTimeSystem, initUIStoreListeners, updateMainCharacterImage, changeSceneFade, updateMainPickupBanner, playNextRandomBgm } from './ui.js?v=004277';
+import { initBattleSystem } from './battle.js?v=004277';
 
 document.addEventListener("DOMContentLoaded", async () => {
   const initOverlay = document.getElementById("init-overlay");
